@@ -1,354 +1,354 @@
 build/src/plugin.cpp.o: src/plugin.cpp src/plugin.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/rack.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/common.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/logger.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/math.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/string.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/system.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/random.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/network.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/dep/include/jansson.h \
-  /Users/duffy/RackPlugDev/Rack-SDK/dep/include/jansson_config.h \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/asset.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/window.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/dep/include/GL/glew.h \
-  /Users/duffy/RackPlugDev/Rack-SDK/dep/include/GLFW/glfw3.h \
-  /Users/duffy/RackPlugDev/Rack-SDK/dep/include/nanovg.h \
-  /Users/duffy/RackPlugDev/Rack-SDK/dep/include/nanovg_gl.h \
-  /Users/duffy/RackPlugDev/Rack-SDK/dep/include/nanovg_gl_utils.h \
-  /Users/duffy/RackPlugDev/Rack-SDK/dep/include/nanosvg.h \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/app.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/midi.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/helpers.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/plugin/Model.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/plugin/Plugin.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/ui/MenuOverlay.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/widget/OpaqueWidget.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/widget/Widget.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/color.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/event.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/ui/common.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/dep/include/blendish.h \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/ui/MenuItem.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/ui/Menu.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/ui/MenuEntry.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/ui/MenuLabel.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/app/PortWidget.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/app/common.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/app/MultiLightWidget.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/app/LightWidget.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/widget/TransparentWidget.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/engine/Module.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/engine/Param.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/engine/Port.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/engine/Light.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/engine/ParamQuantity.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/Quantity.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/app/ParamWidget.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/ui/Tooltip.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/history.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/app/Scene.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/app/RackScrollWidget.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/ui/ScrollWidget.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/ui/ScrollBar.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/widget/ZoomWidget.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/app/RackWidget.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/widget/FramebufferWidget.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/app/ModuleWidget.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/app/CableWidget.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/engine/Cable.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/app/MenuBar.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/componentlibrary.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/app/SvgKnob.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/app/Knob.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/widget/TransformWidget.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/widget/SvgWidget.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/svg.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/app/CircularShadow.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/app/SvgSlider.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/app/SliderKnob.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/app/SvgPort.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/app/ModuleLightWidget.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/app/SvgSwitch.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/app/Switch.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/app/SvgScrew.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/widget/OpenGlWidget.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/ui/SequentialLayout.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/ui/Label.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/ui/List.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/ui/TextField.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/ui/PasswordField.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/ui/Slider.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/ui/MenuSeparator.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/ui/Button.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/ui/IconButton.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/ui/ChoiceButton.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/ui/RadioButton.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/ui/ProgressBar.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/app/AudioWidget.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/app/LedDisplay.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/audio.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/dep/include/RtAudio.h \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/app/MidiWidget.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/app/RackRail.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/app/SvgButton.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/app/SvgPanel.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/engine/Engine.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/engine/ParamHandle.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/plugin/callbacks.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/dsp/common.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/simd/functions.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/simd/vector.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/simd/sse_mathfun_extension.h \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/simd/sse_mathfun.h \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/dsp/digital.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/dsp/fft.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/dep/include/pffft.h \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/dsp/filter.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/dsp/fir.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/dsp/midi.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/dsp/minblep.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/dsp/ode.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/dsp/resampler.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/dsp/ringbuffer.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/dsp/window.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/dep/include/speex/speex_resampler.h \
-  /Users/duffy/RackPlugDev/Rack-SDK/dep/include/speex/speexdsp_types.h \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/dsp/vumeter.hpp \
-  /Users/duffy/RackPlugDev/Rack-SDK/include/dsp/approx.hpp
+  /users/duffy/dev/Rack-sdk/include/rack.hpp \
+  /users/duffy/dev/Rack-sdk/include/common.hpp \
+  /users/duffy/dev/Rack-sdk/include/logger.hpp \
+  /users/duffy/dev/Rack-sdk/include/math.hpp \
+  /users/duffy/dev/Rack-sdk/include/string.hpp \
+  /users/duffy/dev/Rack-sdk/include/system.hpp \
+  /users/duffy/dev/Rack-sdk/include/random.hpp \
+  /users/duffy/dev/Rack-sdk/include/network.hpp \
+  /users/duffy/dev/Rack-sdk/dep/include/jansson.h \
+  /users/duffy/dev/Rack-sdk/dep/include/jansson_config.h \
+  /users/duffy/dev/Rack-sdk/include/asset.hpp \
+  /users/duffy/dev/Rack-sdk/include/window.hpp \
+  /users/duffy/dev/Rack-sdk/dep/include/GL/glew.h \
+  /users/duffy/dev/Rack-sdk/dep/include/GLFW/glfw3.h \
+  /users/duffy/dev/Rack-sdk/dep/include/nanovg.h \
+  /users/duffy/dev/Rack-sdk/dep/include/nanovg_gl.h \
+  /users/duffy/dev/Rack-sdk/dep/include/nanovg_gl_utils.h \
+  /users/duffy/dev/Rack-sdk/dep/include/nanosvg.h \
+  /users/duffy/dev/Rack-sdk/include/app.hpp \
+  /users/duffy/dev/Rack-sdk/include/midi.hpp \
+  /users/duffy/dev/Rack-sdk/include/helpers.hpp \
+  /users/duffy/dev/Rack-sdk/include/plugin/Model.hpp \
+  /users/duffy/dev/Rack-sdk/include/plugin/Plugin.hpp \
+  /users/duffy/dev/Rack-sdk/include/ui/MenuOverlay.hpp \
+  /users/duffy/dev/Rack-sdk/include/widget/OpaqueWidget.hpp \
+  /users/duffy/dev/Rack-sdk/include/widget/Widget.hpp \
+  /users/duffy/dev/Rack-sdk/include/color.hpp \
+  /users/duffy/dev/Rack-sdk/include/event.hpp \
+  /users/duffy/dev/Rack-sdk/include/ui/common.hpp \
+  /users/duffy/dev/Rack-sdk/dep/include/blendish.h \
+  /users/duffy/dev/Rack-sdk/include/ui/MenuItem.hpp \
+  /users/duffy/dev/Rack-sdk/include/ui/Menu.hpp \
+  /users/duffy/dev/Rack-sdk/include/ui/MenuEntry.hpp \
+  /users/duffy/dev/Rack-sdk/include/ui/MenuLabel.hpp \
+  /users/duffy/dev/Rack-sdk/include/app/PortWidget.hpp \
+  /users/duffy/dev/Rack-sdk/include/app/common.hpp \
+  /users/duffy/dev/Rack-sdk/include/app/MultiLightWidget.hpp \
+  /users/duffy/dev/Rack-sdk/include/app/LightWidget.hpp \
+  /users/duffy/dev/Rack-sdk/include/widget/TransparentWidget.hpp \
+  /users/duffy/dev/Rack-sdk/include/engine/Module.hpp \
+  /users/duffy/dev/Rack-sdk/include/engine/Param.hpp \
+  /users/duffy/dev/Rack-sdk/include/engine/Port.hpp \
+  /users/duffy/dev/Rack-sdk/include/engine/Light.hpp \
+  /users/duffy/dev/Rack-sdk/include/engine/ParamQuantity.hpp \
+  /users/duffy/dev/Rack-sdk/include/Quantity.hpp \
+  /users/duffy/dev/Rack-sdk/include/app/ParamWidget.hpp \
+  /users/duffy/dev/Rack-sdk/include/ui/Tooltip.hpp \
+  /users/duffy/dev/Rack-sdk/include/history.hpp \
+  /users/duffy/dev/Rack-sdk/include/app/Scene.hpp \
+  /users/duffy/dev/Rack-sdk/include/app/RackScrollWidget.hpp \
+  /users/duffy/dev/Rack-sdk/include/ui/ScrollWidget.hpp \
+  /users/duffy/dev/Rack-sdk/include/ui/ScrollBar.hpp \
+  /users/duffy/dev/Rack-sdk/include/widget/ZoomWidget.hpp \
+  /users/duffy/dev/Rack-sdk/include/app/RackWidget.hpp \
+  /users/duffy/dev/Rack-sdk/include/widget/FramebufferWidget.hpp \
+  /users/duffy/dev/Rack-sdk/include/app/ModuleWidget.hpp \
+  /users/duffy/dev/Rack-sdk/include/app/CableWidget.hpp \
+  /users/duffy/dev/Rack-sdk/include/engine/Cable.hpp \
+  /users/duffy/dev/Rack-sdk/include/app/MenuBar.hpp \
+  /users/duffy/dev/Rack-sdk/include/componentlibrary.hpp \
+  /users/duffy/dev/Rack-sdk/include/app/SvgKnob.hpp \
+  /users/duffy/dev/Rack-sdk/include/app/Knob.hpp \
+  /users/duffy/dev/Rack-sdk/include/widget/TransformWidget.hpp \
+  /users/duffy/dev/Rack-sdk/include/widget/SvgWidget.hpp \
+  /users/duffy/dev/Rack-sdk/include/svg.hpp \
+  /users/duffy/dev/Rack-sdk/include/app/CircularShadow.hpp \
+  /users/duffy/dev/Rack-sdk/include/app/SvgSlider.hpp \
+  /users/duffy/dev/Rack-sdk/include/app/SliderKnob.hpp \
+  /users/duffy/dev/Rack-sdk/include/app/SvgPort.hpp \
+  /users/duffy/dev/Rack-sdk/include/app/ModuleLightWidget.hpp \
+  /users/duffy/dev/Rack-sdk/include/app/SvgSwitch.hpp \
+  /users/duffy/dev/Rack-sdk/include/app/Switch.hpp \
+  /users/duffy/dev/Rack-sdk/include/app/SvgScrew.hpp \
+  /users/duffy/dev/Rack-sdk/include/widget/OpenGlWidget.hpp \
+  /users/duffy/dev/Rack-sdk/include/ui/SequentialLayout.hpp \
+  /users/duffy/dev/Rack-sdk/include/ui/Label.hpp \
+  /users/duffy/dev/Rack-sdk/include/ui/List.hpp \
+  /users/duffy/dev/Rack-sdk/include/ui/TextField.hpp \
+  /users/duffy/dev/Rack-sdk/include/ui/PasswordField.hpp \
+  /users/duffy/dev/Rack-sdk/include/ui/Slider.hpp \
+  /users/duffy/dev/Rack-sdk/include/ui/MenuSeparator.hpp \
+  /users/duffy/dev/Rack-sdk/include/ui/Button.hpp \
+  /users/duffy/dev/Rack-sdk/include/ui/IconButton.hpp \
+  /users/duffy/dev/Rack-sdk/include/ui/ChoiceButton.hpp \
+  /users/duffy/dev/Rack-sdk/include/ui/RadioButton.hpp \
+  /users/duffy/dev/Rack-sdk/include/ui/ProgressBar.hpp \
+  /users/duffy/dev/Rack-sdk/include/app/AudioWidget.hpp \
+  /users/duffy/dev/Rack-sdk/include/app/LedDisplay.hpp \
+  /users/duffy/dev/Rack-sdk/include/audio.hpp \
+  /users/duffy/dev/Rack-sdk/dep/include/RtAudio.h \
+  /users/duffy/dev/Rack-sdk/include/app/MidiWidget.hpp \
+  /users/duffy/dev/Rack-sdk/include/app/RackRail.hpp \
+  /users/duffy/dev/Rack-sdk/include/app/SvgButton.hpp \
+  /users/duffy/dev/Rack-sdk/include/app/SvgPanel.hpp \
+  /users/duffy/dev/Rack-sdk/include/engine/Engine.hpp \
+  /users/duffy/dev/Rack-sdk/include/engine/ParamHandle.hpp \
+  /users/duffy/dev/Rack-sdk/include/plugin/callbacks.hpp \
+  /users/duffy/dev/Rack-sdk/include/dsp/common.hpp \
+  /users/duffy/dev/Rack-sdk/include/simd/functions.hpp \
+  /users/duffy/dev/Rack-sdk/include/simd/vector.hpp \
+  /users/duffy/dev/Rack-sdk/include/simd/sse_mathfun_extension.h \
+  /users/duffy/dev/Rack-sdk/include/simd/sse_mathfun.h \
+  /users/duffy/dev/Rack-sdk/include/dsp/digital.hpp \
+  /users/duffy/dev/Rack-sdk/include/dsp/fft.hpp \
+  /users/duffy/dev/Rack-sdk/dep/include/pffft.h \
+  /users/duffy/dev/Rack-sdk/include/dsp/filter.hpp \
+  /users/duffy/dev/Rack-sdk/include/dsp/fir.hpp \
+  /users/duffy/dev/Rack-sdk/include/dsp/midi.hpp \
+  /users/duffy/dev/Rack-sdk/include/dsp/minblep.hpp \
+  /users/duffy/dev/Rack-sdk/include/dsp/ode.hpp \
+  /users/duffy/dev/Rack-sdk/include/dsp/resampler.hpp \
+  /users/duffy/dev/Rack-sdk/include/dsp/ringbuffer.hpp \
+  /users/duffy/dev/Rack-sdk/include/dsp/window.hpp \
+  /users/duffy/dev/Rack-sdk/dep/include/speex/speex_resampler.h \
+  /users/duffy/dev/Rack-sdk/dep/include/speex/speexdsp_types.h \
+  /users/duffy/dev/Rack-sdk/include/dsp/vumeter.hpp \
+  /users/duffy/dev/Rack-sdk/include/dsp/approx.hpp
 
 src/plugin.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/rack.hpp:
+/users/duffy/dev/Rack-sdk/include/rack.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/common.hpp:
+/users/duffy/dev/Rack-sdk/include/common.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/logger.hpp:
+/users/duffy/dev/Rack-sdk/include/logger.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/math.hpp:
+/users/duffy/dev/Rack-sdk/include/math.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/string.hpp:
+/users/duffy/dev/Rack-sdk/include/string.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/system.hpp:
+/users/duffy/dev/Rack-sdk/include/system.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/random.hpp:
+/users/duffy/dev/Rack-sdk/include/random.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/network.hpp:
+/users/duffy/dev/Rack-sdk/include/network.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/dep/include/jansson.h:
+/users/duffy/dev/Rack-sdk/dep/include/jansson.h:
 
-/Users/duffy/RackPlugDev/Rack-SDK/dep/include/jansson_config.h:
+/users/duffy/dev/Rack-sdk/dep/include/jansson_config.h:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/asset.hpp:
+/users/duffy/dev/Rack-sdk/include/asset.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/window.hpp:
+/users/duffy/dev/Rack-sdk/include/window.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/dep/include/GL/glew.h:
+/users/duffy/dev/Rack-sdk/dep/include/GL/glew.h:
 
-/Users/duffy/RackPlugDev/Rack-SDK/dep/include/GLFW/glfw3.h:
+/users/duffy/dev/Rack-sdk/dep/include/GLFW/glfw3.h:
 
-/Users/duffy/RackPlugDev/Rack-SDK/dep/include/nanovg.h:
+/users/duffy/dev/Rack-sdk/dep/include/nanovg.h:
 
-/Users/duffy/RackPlugDev/Rack-SDK/dep/include/nanovg_gl.h:
+/users/duffy/dev/Rack-sdk/dep/include/nanovg_gl.h:
 
-/Users/duffy/RackPlugDev/Rack-SDK/dep/include/nanovg_gl_utils.h:
+/users/duffy/dev/Rack-sdk/dep/include/nanovg_gl_utils.h:
 
-/Users/duffy/RackPlugDev/Rack-SDK/dep/include/nanosvg.h:
+/users/duffy/dev/Rack-sdk/dep/include/nanosvg.h:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/app.hpp:
+/users/duffy/dev/Rack-sdk/include/app.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/midi.hpp:
+/users/duffy/dev/Rack-sdk/include/midi.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/helpers.hpp:
+/users/duffy/dev/Rack-sdk/include/helpers.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/plugin/Model.hpp:
+/users/duffy/dev/Rack-sdk/include/plugin/Model.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/plugin/Plugin.hpp:
+/users/duffy/dev/Rack-sdk/include/plugin/Plugin.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/ui/MenuOverlay.hpp:
+/users/duffy/dev/Rack-sdk/include/ui/MenuOverlay.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/widget/OpaqueWidget.hpp:
+/users/duffy/dev/Rack-sdk/include/widget/OpaqueWidget.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/widget/Widget.hpp:
+/users/duffy/dev/Rack-sdk/include/widget/Widget.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/color.hpp:
+/users/duffy/dev/Rack-sdk/include/color.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/event.hpp:
+/users/duffy/dev/Rack-sdk/include/event.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/ui/common.hpp:
+/users/duffy/dev/Rack-sdk/include/ui/common.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/dep/include/blendish.h:
+/users/duffy/dev/Rack-sdk/dep/include/blendish.h:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/ui/MenuItem.hpp:
+/users/duffy/dev/Rack-sdk/include/ui/MenuItem.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/ui/Menu.hpp:
+/users/duffy/dev/Rack-sdk/include/ui/Menu.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/ui/MenuEntry.hpp:
+/users/duffy/dev/Rack-sdk/include/ui/MenuEntry.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/ui/MenuLabel.hpp:
+/users/duffy/dev/Rack-sdk/include/ui/MenuLabel.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/app/PortWidget.hpp:
+/users/duffy/dev/Rack-sdk/include/app/PortWidget.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/app/common.hpp:
+/users/duffy/dev/Rack-sdk/include/app/common.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/app/MultiLightWidget.hpp:
+/users/duffy/dev/Rack-sdk/include/app/MultiLightWidget.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/app/LightWidget.hpp:
+/users/duffy/dev/Rack-sdk/include/app/LightWidget.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/widget/TransparentWidget.hpp:
+/users/duffy/dev/Rack-sdk/include/widget/TransparentWidget.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/engine/Module.hpp:
+/users/duffy/dev/Rack-sdk/include/engine/Module.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/engine/Param.hpp:
+/users/duffy/dev/Rack-sdk/include/engine/Param.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/engine/Port.hpp:
+/users/duffy/dev/Rack-sdk/include/engine/Port.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/engine/Light.hpp:
+/users/duffy/dev/Rack-sdk/include/engine/Light.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/engine/ParamQuantity.hpp:
+/users/duffy/dev/Rack-sdk/include/engine/ParamQuantity.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/Quantity.hpp:
+/users/duffy/dev/Rack-sdk/include/Quantity.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/app/ParamWidget.hpp:
+/users/duffy/dev/Rack-sdk/include/app/ParamWidget.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/ui/Tooltip.hpp:
+/users/duffy/dev/Rack-sdk/include/ui/Tooltip.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/history.hpp:
+/users/duffy/dev/Rack-sdk/include/history.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/app/Scene.hpp:
+/users/duffy/dev/Rack-sdk/include/app/Scene.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/app/RackScrollWidget.hpp:
+/users/duffy/dev/Rack-sdk/include/app/RackScrollWidget.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/ui/ScrollWidget.hpp:
+/users/duffy/dev/Rack-sdk/include/ui/ScrollWidget.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/ui/ScrollBar.hpp:
+/users/duffy/dev/Rack-sdk/include/ui/ScrollBar.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/widget/ZoomWidget.hpp:
+/users/duffy/dev/Rack-sdk/include/widget/ZoomWidget.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/app/RackWidget.hpp:
+/users/duffy/dev/Rack-sdk/include/app/RackWidget.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/widget/FramebufferWidget.hpp:
+/users/duffy/dev/Rack-sdk/include/widget/FramebufferWidget.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/app/ModuleWidget.hpp:
+/users/duffy/dev/Rack-sdk/include/app/ModuleWidget.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/app/CableWidget.hpp:
+/users/duffy/dev/Rack-sdk/include/app/CableWidget.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/engine/Cable.hpp:
+/users/duffy/dev/Rack-sdk/include/engine/Cable.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/app/MenuBar.hpp:
+/users/duffy/dev/Rack-sdk/include/app/MenuBar.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/componentlibrary.hpp:
+/users/duffy/dev/Rack-sdk/include/componentlibrary.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/app/SvgKnob.hpp:
+/users/duffy/dev/Rack-sdk/include/app/SvgKnob.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/app/Knob.hpp:
+/users/duffy/dev/Rack-sdk/include/app/Knob.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/widget/TransformWidget.hpp:
+/users/duffy/dev/Rack-sdk/include/widget/TransformWidget.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/widget/SvgWidget.hpp:
+/users/duffy/dev/Rack-sdk/include/widget/SvgWidget.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/svg.hpp:
+/users/duffy/dev/Rack-sdk/include/svg.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/app/CircularShadow.hpp:
+/users/duffy/dev/Rack-sdk/include/app/CircularShadow.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/app/SvgSlider.hpp:
+/users/duffy/dev/Rack-sdk/include/app/SvgSlider.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/app/SliderKnob.hpp:
+/users/duffy/dev/Rack-sdk/include/app/SliderKnob.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/app/SvgPort.hpp:
+/users/duffy/dev/Rack-sdk/include/app/SvgPort.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/app/ModuleLightWidget.hpp:
+/users/duffy/dev/Rack-sdk/include/app/ModuleLightWidget.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/app/SvgSwitch.hpp:
+/users/duffy/dev/Rack-sdk/include/app/SvgSwitch.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/app/Switch.hpp:
+/users/duffy/dev/Rack-sdk/include/app/Switch.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/app/SvgScrew.hpp:
+/users/duffy/dev/Rack-sdk/include/app/SvgScrew.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/widget/OpenGlWidget.hpp:
+/users/duffy/dev/Rack-sdk/include/widget/OpenGlWidget.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/ui/SequentialLayout.hpp:
+/users/duffy/dev/Rack-sdk/include/ui/SequentialLayout.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/ui/Label.hpp:
+/users/duffy/dev/Rack-sdk/include/ui/Label.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/ui/List.hpp:
+/users/duffy/dev/Rack-sdk/include/ui/List.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/ui/TextField.hpp:
+/users/duffy/dev/Rack-sdk/include/ui/TextField.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/ui/PasswordField.hpp:
+/users/duffy/dev/Rack-sdk/include/ui/PasswordField.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/ui/Slider.hpp:
+/users/duffy/dev/Rack-sdk/include/ui/Slider.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/ui/MenuSeparator.hpp:
+/users/duffy/dev/Rack-sdk/include/ui/MenuSeparator.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/ui/Button.hpp:
+/users/duffy/dev/Rack-sdk/include/ui/Button.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/ui/IconButton.hpp:
+/users/duffy/dev/Rack-sdk/include/ui/IconButton.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/ui/ChoiceButton.hpp:
+/users/duffy/dev/Rack-sdk/include/ui/ChoiceButton.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/ui/RadioButton.hpp:
+/users/duffy/dev/Rack-sdk/include/ui/RadioButton.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/ui/ProgressBar.hpp:
+/users/duffy/dev/Rack-sdk/include/ui/ProgressBar.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/app/AudioWidget.hpp:
+/users/duffy/dev/Rack-sdk/include/app/AudioWidget.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/app/LedDisplay.hpp:
+/users/duffy/dev/Rack-sdk/include/app/LedDisplay.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/audio.hpp:
+/users/duffy/dev/Rack-sdk/include/audio.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/dep/include/RtAudio.h:
+/users/duffy/dev/Rack-sdk/dep/include/RtAudio.h:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/app/MidiWidget.hpp:
+/users/duffy/dev/Rack-sdk/include/app/MidiWidget.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/app/RackRail.hpp:
+/users/duffy/dev/Rack-sdk/include/app/RackRail.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/app/SvgButton.hpp:
+/users/duffy/dev/Rack-sdk/include/app/SvgButton.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/app/SvgPanel.hpp:
+/users/duffy/dev/Rack-sdk/include/app/SvgPanel.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/engine/Engine.hpp:
+/users/duffy/dev/Rack-sdk/include/engine/Engine.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/engine/ParamHandle.hpp:
+/users/duffy/dev/Rack-sdk/include/engine/ParamHandle.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/plugin/callbacks.hpp:
+/users/duffy/dev/Rack-sdk/include/plugin/callbacks.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/dsp/common.hpp:
+/users/duffy/dev/Rack-sdk/include/dsp/common.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/simd/functions.hpp:
+/users/duffy/dev/Rack-sdk/include/simd/functions.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/simd/vector.hpp:
+/users/duffy/dev/Rack-sdk/include/simd/vector.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/simd/sse_mathfun_extension.h:
+/users/duffy/dev/Rack-sdk/include/simd/sse_mathfun_extension.h:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/simd/sse_mathfun.h:
+/users/duffy/dev/Rack-sdk/include/simd/sse_mathfun.h:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/dsp/digital.hpp:
+/users/duffy/dev/Rack-sdk/include/dsp/digital.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/dsp/fft.hpp:
+/users/duffy/dev/Rack-sdk/include/dsp/fft.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/dep/include/pffft.h:
+/users/duffy/dev/Rack-sdk/dep/include/pffft.h:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/dsp/filter.hpp:
+/users/duffy/dev/Rack-sdk/include/dsp/filter.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/dsp/fir.hpp:
+/users/duffy/dev/Rack-sdk/include/dsp/fir.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/dsp/midi.hpp:
+/users/duffy/dev/Rack-sdk/include/dsp/midi.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/dsp/minblep.hpp:
+/users/duffy/dev/Rack-sdk/include/dsp/minblep.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/dsp/ode.hpp:
+/users/duffy/dev/Rack-sdk/include/dsp/ode.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/dsp/resampler.hpp:
+/users/duffy/dev/Rack-sdk/include/dsp/resampler.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/dsp/ringbuffer.hpp:
+/users/duffy/dev/Rack-sdk/include/dsp/ringbuffer.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/dsp/window.hpp:
+/users/duffy/dev/Rack-sdk/include/dsp/window.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/dep/include/speex/speex_resampler.h:
+/users/duffy/dev/Rack-sdk/dep/include/speex/speex_resampler.h:
 
-/Users/duffy/RackPlugDev/Rack-SDK/dep/include/speex/speexdsp_types.h:
+/users/duffy/dev/Rack-sdk/dep/include/speex/speexdsp_types.h:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/dsp/vumeter.hpp:
+/users/duffy/dev/Rack-sdk/include/dsp/vumeter.hpp:
 
-/Users/duffy/RackPlugDev/Rack-SDK/include/dsp/approx.hpp:
+/users/duffy/dev/Rack-sdk/include/dsp/approx.hpp:

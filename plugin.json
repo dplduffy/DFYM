@@ -17,7 +17,7 @@
       "slug": "QuantumLaunch",
       "name": "QuantumLaunch",
       "description": "Quantized mute buffer. Emulates 'clip launching' from Ableton.",
-      "tags": [buffer, mute, clock, quantize]
+      "tags": []
     }
   ]
 }
