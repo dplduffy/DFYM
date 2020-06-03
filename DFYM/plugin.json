@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "license": "proprietary",
   "brand": "DFYM",
-  "author": "",
+  "author": "Dan Duffy",
   "authorEmail": "",
   "authorUrl": "",
   "pluginUrl": "",
@@ -16,8 +16,8 @@
     {
       "slug": "QuantumLaunch",
       "name": "QuantumLaunch",
-      "description": "",
-      "tags": []
+      "description": "Quantized mute buffer. Emulates 'clip launching' from Ableton.",
+      "tags": [buffer, mute, clock, quantize]
     }
   ]
 }
