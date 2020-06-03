@@ -1,0 +1,23 @@
+{
+  "slug": "DFYM",
+  "name": "DFY Modular",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "brand": "DFYM",
+  "author": "",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "QuantumLaunch",
+      "name": "QuantumLaunch",
+      "description": "",
+      "tags": []
+    }
+  ]
+}

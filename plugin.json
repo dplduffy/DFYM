@@ -1,0 +1,23 @@
+{
+  "slug": "DFYM",
+  "name": "DFY Modular",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "brand": "DFYM",
+  "author": "Dan Duffy",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "QuantumLaunch",
+      "name": "QuantumLaunch",
+      "description": "Quantized mute buffer. Emulates 'clip launching' from Ableton.",
+      "tags": [buffer, mute, clock, quantize]
+    }
+  ]
+}
