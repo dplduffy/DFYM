@@ -2,7 +2,7 @@
   "slug": "DFYM",
   "name": "DFY Modular",
   "version": "1.0.0",
-  "license": "proprietary",
+  "license": "GPL-3.0-or-later",
   "brand": "DFYM",
   "author": "Dan Duffy",
   "authorEmail": "",
